@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from '../Components/Hero'
+import Stats from '../Components/Stats'
 
 function Home() {
     return (
-        <div>Home</div>
+        <div>
+            <Hero />
+            <Stats />
+        </div>
     )
 }
 
