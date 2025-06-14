@@ -9,7 +9,7 @@ import { AnimatePresence, easeInOut, motion } from 'framer-motion';
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
-        <nav className='md:px-16 sm:px-12 px-8 py-2 shadow flex items-center bg-white fixed w-full justify-between' >
+        <nav className='md:pr-16 sm:pr-12 pr-8 md:pl-8 sm:pl-4 pl-0 py-2 shadow flex items-center bg-white fixed w-full justify-between' >
             <Link to={'/'} className='w-[200px] h-[60px]'>
                 <img src={logo} alt="QuickHire Logo" className='w-full h-full object-cover' />
             </Link>
@@ -39,7 +39,7 @@ function Navbar() {
                 {menuOpen && (
                     <motion.div initial={{
                         scale: 0, opacity: 0
-                    }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0, opacity: 0 }} transition={{ duration: 0.3, ease: easeInOut }} className='absolute top-16 right-0 backdrop-blur-2xl w-[200px] flex flex-col gap-y-2'>
+                    }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0, opacity: 0 }} transition={{ duration: 0.3, ease: easeInOut }} className='absolute top-[75px] right-0 backdrop-blur-2xl w-[200px] flex flex-col gap-y-2'>
                         {
                             services.map((service, index) => (
                                 <div key={index} className='font-inter capitalize font-[500] cursor-pointer text-black hover:text-[#dbdbe0] hover:bg-zinc-900 px-4 py-2'>

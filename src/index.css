@@ -3,7 +3,6 @@
 
 @theme {
     --font-inter: 'Inter', 'sans-serif';
-    /* --breakpoint-*: initial; */
     --breakpoint-xmd:54.69rem;
 }
 

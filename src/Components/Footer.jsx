@@ -18,7 +18,7 @@ function Footer() {
                 <div className='py-4 px-4 bg-white rounded-2xl items-center justify-center flex gap-4 flex-wrap-reverse cursor-pointer mt-4'>
                     <div>
                         <p className='font-bold text-[14px] text-black'>Talk to Our Support</p>
-                        <p className='font-[500] text-[14px] text-[#0667ce]'>+234-802-228-7813</p>
+                        <p className='font-[500] text-[14px] text-[#007AFF]'>+234-802-228-7813</p>
                     </div>
                     <div className='text-green-500 text-4xl'>
                         <FaWhatsapp />
