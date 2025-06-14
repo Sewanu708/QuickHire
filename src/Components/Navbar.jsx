@@ -9,7 +9,7 @@ import { AnimatePresence, easeInOut, motion } from 'framer-motion';
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
-        <nav className='md:pr-16 sm:pr-12 pr-8 md:pl-8 sm:pl-4 pl-0 py-2 shadow flex items-center bg-white fixed w-full justify-between' >
+        <nav className='md:pr-16 z-50 sm:pr-12 pr-8 md:pl-8 sm:pl-4 pl-0 py-2 shadow flex items-center bg-white fixed w-full justify-between' >
             <Link to={'/'} className='w-[200px] h-[60px]'>
                 <img src={logo} alt="QuickHire Logo" className='w-full h-full object-cover' />
             </Link>
